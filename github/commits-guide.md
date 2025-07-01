@@ -7,14 +7,14 @@ Writing clear and meaningful commit messages helps your team understand the hist
 ## 1. Use the Conventional Commit Format (Optional but Recommended)
 
 ```bash
-<type>(optional scope): <short summary>
+<type>(optional): <short summary>
 ```
 
 ## Example
 
 ```bash
-feat(auth): add JWT-based login
-fix(ui): correct button alignment on mobile
+feat: add JWT-based login
+fix: correct button alignment on mobile
 ```
 
 **Common types**:
@@ -42,7 +42,7 @@ fix(ui): correct button alignment on mobile
 Link related issues or pull requests to provide context.
 
 ```bash
-fix(auth): handle token expiration
+fix: handle token expiration
 
 Fixes #123
 ```
@@ -52,7 +52,7 @@ Fixes #123
 ## 4. Examples
 
 ```bash
-feat(api): add endpoint for user registration
+feat: add endpoint for user registration
 
 This adds a new POST endpoint at /api/register to allow users to sign up.
 Includes validation and error handling.
@@ -61,11 +61,11 @@ Closes #42
 ```
 
 ```bash
-docs(readme): update installation instructions
+docs: update installation instructions
 ```
 
 ```bash
-chore(deps): update dependency eslint to v8.10.0
+chore: update dependency eslint to v8.10.0
 chore: update dependencies
 chore: add codeowners file
 chore: update CI workflow to use Node.js 18
