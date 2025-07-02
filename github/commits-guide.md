@@ -1,4 +1,4 @@
-# ✅ Guidelines for Writing Great Commit Messages
+# Commit Guidelines
 
 Writing clear and meaningful commit messages helps your team understand the history of changes and improves collaboration.
 
@@ -29,6 +29,8 @@ fix: correct button alignment on mobile
 
 ---
 
+[⬆️ Back to Top](#commit-guidelines)
+
 ## 2. Write Clear and Concise Messages
 
 - Use the **imperative mood**: “Add feature” not “Added” or “Adds”.
@@ -49,6 +51,8 @@ Fixes #123
 
 ---
 
+[⬆️ Back to Top](#commit-guidelines)
+
 ## 4. Examples
 
 ```bash
@@ -66,7 +70,6 @@ docs: update installation instructions
 
 ```bash
 chore: update dependency eslint to v8.10.0
-chore: update dependencies
 chore: add codeowners file
 chore: update CI workflow to use Node.js 18
 chore: clean up unused scripts
@@ -81,3 +84,5 @@ This type of commit is used for routine tasks such as updating dependencies, con
 
 - Use a linter like Commitlint to enforce commit message format.
 - Squash commits before merging to keep history clean.
+
+[⬆️ Back to Top](#commit-guidelines)

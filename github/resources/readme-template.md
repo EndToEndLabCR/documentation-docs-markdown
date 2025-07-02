@@ -4,17 +4,18 @@ A brief description of your project. Explain what the project does, its primary 
 
 ## 📑 Table of Contents
 
-- [✨ Features](#-features)
-- [🛠️ Technologies Used](#-technologies-used)
-- [🚀 Getting Started](#-getting-started)
-  - [⚙️ Prerequisites](#-prerequisites)
-  - [💾 Installation](#-installation)
-  - [🏃 Running the App](#-running-the-app)
-- [👾 Usage](#-usage)
-- [📝 Configuration](#-configuration)
-- [🔗 Important Links to Have at Hand](#-important-links-to-have-at-hand)
-- [📚 Additional Links](#-additional-links)
-- [🤝 Contributing](#-contributing)
+- [Project Name](#project-name)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [✨ Features](#-features)
+  - [🛠️ Technologies Used](#️-technologies-used)
+  - [🚀 Getting Started](#-getting-started)
+    - [⚙️ Prerequisites](#️-prerequisites)
+    - [💾 Installation](#-installation)
+    - [🏃 Running the App](#-running-the-app)
+  - [📝 Configuration](#-configuration)
+  - [🔗 Important Links to Have at Hand](#-important-links-to-have-at-hand)
+  - [📚 Additional Links](#-additional-links)
+  - [🤝 Contributing](#-contributing)
 
 ## ✨ Features
 
@@ -22,6 +23,8 @@ A brief description of your project. Explain what the project does, its primary 
 - Example: User authentication
 - Example: RESTful API
 - Example: Responsive UI
+
+[⬆️ Back to Top](#project-name)
 
 ## 🛠️ Technologies Used
 
@@ -49,6 +52,8 @@ npm install
 yarn install
 ```
 
+[⬆️ Back to Top](#project-name)
+
 ### 🏃 Running the App
 
 ```sh
@@ -59,17 +64,14 @@ yarn start
 
 Access the app at `http://localhost:3000` (or specify another port if needed).
 
-## 👾 Usage
-
-- Briefly explain how to use your project.
-- Include example commands, screenshots, or API usage if relevant.
-
 ## 📝 Configuration
 
 - List and describe environment variables or configuration files needed.
 - Example:
   - `API_URL` - The endpoint for the backend API
   - `PORT` - The port number to run the app
+
+[⬆️ Back to Top](#project-name)
 
 ## 🔗 Important Links to Have at Hand
 
@@ -100,3 +102,5 @@ Contributions are welcome! Please follow these steps:
 ---
 
 _Built with ❤️ by [Your Name](https://github.com/your-username)_
+
+[⬆️ Back to Top](#project-name)

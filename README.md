@@ -4,13 +4,14 @@ A centralized repository for relevant documentation, guides, and best practices.
 
 ## 📑 Table of Contents
 
-- [✨ Features](#-features)
-- [🚀 Getting Started](#-getting-started)
-  - [⚙️ Prerequisites](#prerequisites)
-  - [💾 Installation](#-installation)
-  - [🏃 Usage](#-usage)
-- [🔗 Important Links](#-important-links)
-- [🤝 Contributing](#-contributing)
+- [documentation](#documentation)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [✨ Features](#-features)
+  - [🚀 Getting Started](#-getting-started)
+    - [⚙️ Prerequisites](#️-prerequisites)
+    - [💾 Installation](#-installation)
+  - [🔗 Important Links](#-important-links)
+  - [🤝 Contributing](#-contributing)
 
 ## ✨ Features
 
@@ -19,6 +20,8 @@ A centralized repository for relevant documentation, guides, and best practices.
 - Setup and configuration guides
 - Troubleshooting tips
 - Reference links and resources
+
+[⬆️ Back to Top](#documentation)
 
 ## 🚀 Getting Started
 
@@ -36,14 +39,12 @@ git clone https://github.com/your-username/documentation.git
 cd documentation
 ```
 
-### 🏃 Usage
-
-Browse the documentation files directly in your editor or on GitHub. Each folder or markdown file corresponds to a specific technology or topic.
-
 ## 🔗 Important Links
 
 - [Open Issues](https://github.com/EndToEndLabCR/documentation/issues)
 - [Open PR](https://github.com/EndToEndLabCR/documentation/pulls)
+
+[⬆️ Back to Top](#documentation)
 
 ## 🤝 Contributing
 
@@ -55,6 +56,8 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch: `git push origin docs/YourTopic`
 5. Open a [pull request](https://github.com/EndToEndLabCR/documentation/pulls)
 
-### 📄 For more details, please refer to the [Contributions Guidelines.](./docs/contributions-guidelines.md)
+📄 For more details, please refer to the [Contributions Guidelines.](./docs/contributions-guidelines.md)
 
 _Built with ❤️ by [EndToEndLabCR](https://github.com/EndToEndLabCR)_
+
+[⬆️ Back to Top](#documentation)

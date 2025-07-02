@@ -1,4 +1,4 @@
-# 🔐 How to Set Up Branch Protection Rules on GitHub
+# 🔐 Branch Protection Rules
 
 Follow these steps to protect important branches like `main` or `production`:
 
@@ -27,17 +27,17 @@ Follow these steps to protect important branches like `main` or `production`:
    - **Branch name pattern**: Enter the branch name (e.g., `main`,`develop`, `release/*`).
    - Enable the desired options:
      - ✅ Restrict deletions
-     - ✅ Require signed commits
      - ✅ Require a pull request before merging
        - Required approvals: at least 1
        - Require approval of the most recent reviewable push
        - Require conversation resolution before merging
      - ✅ Require status checks to pass
        - Require branches to be up to date before merging
-     - ✅ Include administrators (optional but recommended)
 
 6. **Save Changes**
    - Click **"Create"** or **"Save changes"** at the bottom.
+
+[⬆️ Back to Top](#-branch-protection-rules)
 
 ---
 
@@ -63,3 +63,5 @@ Main branch ruleset example:
 - Use wildcards like `release/*` to apply rules to multiple branches.
 - Combine with GitHub Actions for automated checks and workflows.
 - Regularly review and update rules as your team grows.
+
+[⬆️ Back to Top](#-branch-protection-rules)
