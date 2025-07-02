@@ -1,0 +1,50 @@
+name: 📝 Documentation Improvement
+description: Suggest an update or improvement to the documentation.
+title: "[Docs]: "
+labels: ["documentation"]
+
+assignees:
+  - Alonsovn
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: Describe the documentation that needs improvement or clarification.
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 📚 Location
+      description: File or section (e.g. README.md, API Reference, Setup Guide).
+      placeholder: "File/Section"
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: 💡 Suggested Changes
+      description: Provide your suggestions or proposed edits.
+    validations:
+      required: true
+
+  - type: input
+    id: ticket
+    attributes:
+      label: 🗾 Ticket (if applicable)
+      description: Reference to a related ticket, if any.
+      placeholder: "Ticket number or link"
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 🧠 Additional Context
+      description: Add any other context or screenshots related to the documentation update.
+    validations:
+      required: false
