@@ -1,4 +1,4 @@
-project-root/
+```project-root/
 ├── domain/
 │   ├── entities/
 │   │   └── user.py                  # Core User entity (business logic)
@@ -46,3 +46,4 @@ project-root/
 ├── docker-compose.yml               # Docker Compose file for local development
 ├── requirements.txt                 # Python dependencies (or pom.xml for Java)
 └── README.md                        # Project documentation
+```
