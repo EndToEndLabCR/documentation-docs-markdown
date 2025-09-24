@@ -1,4 +1,5 @@
-```project-root/
+```plaintext
+project-root/
 ├── domain/
 │   ├── entities/
 │   │   └── user.py                  # Core User entity (business logic)
