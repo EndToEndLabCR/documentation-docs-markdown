@@ -15,6 +15,7 @@ The project tasks are organized into the following categories:
 Design tasks focusing on creating user-centered, visually appealing, and accessible interfaces.
 
 **Key Tasks:**
+
 - Landing Page Design
 - User Dashboard Design
 - Project Management Interface Design
@@ -35,6 +36,7 @@ Design tasks focusing on creating user-centered, visually appealing, and accessi
 Development tasks for building the React-based frontend application.
 
 **Key Tasks:**
+
 - Project Setup with Vite, React, TypeScript
 - Authentication Feature Implementation
 - User Dashboard Development
@@ -57,6 +59,7 @@ Development tasks for building the React-based frontend application.
 Development tasks for building the FastAPI-based backend with Clean Architecture and DDD.
 
 **Key Tasks:**
+
 - Project Setup with FastAPI and Clean Architecture
 - User Management Feature
 - Authentication and Authorization (JWT)
@@ -79,6 +82,7 @@ Development tasks for building the FastAPI-based backend with Clean Architecture
 Infrastructure and deployment tasks for reliable application hosting and operations.
 
 **Key Tasks:**
+
 - Docker Configuration
 - CI/CD Pipeline with GitHub Actions
 - Cloud Infrastructure Setup
@@ -103,6 +107,7 @@ Infrastructure and deployment tasks for reliable application hosting and operati
 These tasks are critical for the MVP (Minimum Viable Product) and should be completed first:
 
 #### Backend
+
 1. Project Setup and Configuration
 2. User Management Feature
 3. Authentication and Authorization
@@ -113,6 +118,7 @@ These tasks are critical for the MVP (Minimum Viable Product) and should be comp
 8. Security Features
 
 #### Frontend
+
 1. Project Setup and Configuration
 2. Authentication Feature
 3. User Dashboard Feature
@@ -123,6 +129,7 @@ These tasks are critical for the MVP (Minimum Viable Product) and should be comp
 8. API Integration Layer
 
 #### UI/UX
+
 1. Landing Page Design
 2. User Dashboard Design
 3. Project Management Interface Design
@@ -130,6 +137,7 @@ These tasks are critical for the MVP (Minimum Viable Product) and should be comp
 5. Kanban Board Design
 
 #### DevOps
+
 1. Docker Configuration
 2. CI/CD Pipeline
 3. Cloud Infrastructure Setup
@@ -143,11 +151,13 @@ These tasks are critical for the MVP (Minimum Viable Product) and should be comp
 These tasks enhance functionality and user experience:
 
 #### Backend
+
 - Notification System
 - Testing Suite
 - API Documentation
 
 #### Frontend
+
 - Kanban Board Implementation
 - Calendar View Feature
 - Notification System
@@ -156,12 +166,14 @@ These tasks enhance functionality and user experience:
 - Accessibility Features
 
 #### UI/UX
+
 - Calendar View Design
 - Design System Creation
 - Mobile-First Responsive Layouts
 - Accessibility Features
 
 #### DevOps
+
 - Monitoring and Alerting
 - Continuous Deployment Strategy
 - Logging Infrastructure
@@ -173,22 +185,26 @@ These tasks enhance functionality and user experience:
 These tasks provide polish and optimization:
 
 #### Backend
+
 - Third-Party Integration (Google Calendar)
 - Performance Optimization
 - Advanced Notification Features
 
 #### Frontend
+
 - Performance Optimization
 - Error Handling and Logging
 - Build and Deployment Configuration
 - Advanced Features (drag-and-drop, filters)
 
 #### UI/UX
+
 - Dark Mode Design
 - Advanced Animations
 - Interactive Prototypes
 
 #### DevOps
+
 - CDN Configuration
 - Cost Optimization
 - Advanced Monitoring
@@ -198,6 +214,7 @@ These tasks provide polish and optimization:
 ## Technology Stack
 
 ### Frontend
+
 - React
 - Vite
 - TypeScript
@@ -207,6 +224,7 @@ These tasks provide polish and optimization:
 - CSS/SCSS
 
 ### Backend
+
 - FastAPI
 - SQLAlchemy
 - Alembic
@@ -215,6 +233,7 @@ These tasks provide polish and optimization:
 - Docker
 
 ### DevOps
+
 - Docker
 - GitHub Actions
 - pytest (Backend testing)
@@ -227,6 +246,7 @@ These tasks provide polish and optimization:
 1. Review the task lists in each category
 2. Start with high-priority tasks
 3. Follow the task structure for each item:
+
    - Title
    - Description
    - Acceptance Criteria
@@ -243,17 +263,12 @@ These tasks provide polish and optimization:
 ## Task Status Tracking
 
 Tasks can have the following statuses:
+
 - **To Do**: Task not started
 - **In Progress**: Task currently being worked on
 - **Blocked**: Task waiting on dependencies
 - **Review**: Task completed, awaiting review
 - **Done**: Task completed and approved
-
----
-
-## Contact
-
-For questions or clarifications on tasks, please contact the project manager or refer to the agent documentation in `/docs/AI/agents/`.
 
 ---
 
