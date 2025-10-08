@@ -10,6 +10,6 @@ Please include a summary of the change. Also include relevant motivation and con
 
 ---
 
-## 🧠 Additional Context
+## Additional Context
 
 Add any other context or screenshots about the pull request here.
