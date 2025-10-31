@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="32" height="32" viewBox="0 0 24 24" role="img" aria-label="YouTube">
+  <!-- Red circular background -->
+  <circle cx="12" cy="12" r="11" fill="#FF0000"/>
+  <!-- White play triangle -->
+  <path d="M10 8.5v7l5-3.5-5-3.5z" fill="#FFFFFF"/>
+</svg>
