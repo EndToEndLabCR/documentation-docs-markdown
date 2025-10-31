@@ -71,28 +71,4 @@ Visual Studio Code (VS Code) is a lightweight, powerful code editor ideal for fr
 
 ---
 
-## Step 5: Install Node.js and Git
-
-### Node.js
-
-1. Download and install Node.js from [nodejs.org](https://nodejs.org/).
-2. Verify installation:
-
-   ```bash
-   node --version
-   npm --version
-   ```
-
-### Git
-
-1. Download and install Git from [git-scm.com](https://git-scm.com/).
-2. Configure global settings:
-
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
-   ```
-
----
-
 By following these steps, your VS Code setup will be optimized for frontend and documentation projects!
