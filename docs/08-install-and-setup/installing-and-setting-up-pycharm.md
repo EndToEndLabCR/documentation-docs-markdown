@@ -5,6 +5,7 @@ This file provides comprehensive instructions for installing and configuring PyC
 ## Installation
 
 ### System Requirements
+
 - **RAM**: 8 GB minimum, 16 GB recommended for large projects
 - **CPU**: Multi-core processor
 - **Disk Space**: 3.5 GB for IDE, additional for projects and environments
@@ -13,6 +14,7 @@ This file provides comprehensive instructions for installing and configuring PyC
 ### Installation Methods
 
 #### JetBrains Toolbox (Recommended)
+
 ```bash
 # Download from: https://www.jetbrains.com/toolbox-app/
 # Benefits:
@@ -23,6 +25,7 @@ This file provides comprehensive instructions for installing and configuring PyC
 ```
 
 #### Package Managers
+
 ```bash
 # macOS via Homebrew
 brew install --cask pycharm-ce          # Community Edition
@@ -43,12 +46,14 @@ sudo snap install pycharm-community --classic
 ## Initial Configuration
 
 ### First Launch Setup
+
 1. **Import Settings**: Import from previous PyCharm installation or start fresh
 2. **UI Theme**: Choose Darcula (dark) or Light theme
 3. **Keymap**: Select keymap (Default, Eclipse, Visual Studio, etc.)
 4. **Essential Plugins**: Install during initial setup
 
 ### Python Interpreter Setup
+
 ```bash
 # Configure Python interpreter
 File → Settings → Project → Python Interpreter
@@ -62,6 +67,7 @@ File → Settings → Project → Python Interpreter
 ```
 
 ### Virtual Environment Configuration
+
 ```bash
 # Create new virtual environment
 File → Settings → Project → Python Interpreter → Add Interpreter
@@ -81,6 +87,7 @@ venv\Scripts\activate     # Windows
 ## Essential Plugins
 
 ### Python Development
+
 ```bash
 # Core plugins (usually pre-installed):
 - Python                    # Python language support
@@ -99,6 +106,7 @@ venv\Scripts\activate     # Windows
 ```
 
 ### Code Quality and Productivity
+
 ```bash
 # Code Quality
 - Pylint                     # Python linter
@@ -116,6 +124,7 @@ venv\Scripts\activate     # Windows
 ```
 
 ### Version Control and Deployment
+
 ```bash
 # Version Control
 - Git                        # Git integration
@@ -132,6 +141,7 @@ venv\Scripts\activate     # Windows
 ## Project Configuration
 
 ### Django Project Setup
+
 ```python
 # Create Django project
 File → New Project → Django
@@ -162,6 +172,7 @@ DATABASES = {
 ```
 
 ### FastAPI Project Setup
+
 ```python
 # Create FastAPI project structure
 project/
@@ -188,12 +199,13 @@ async def root():
 # Run configuration
 # Run → Edit Configurations → Add → Python
 Script path: app/main.py
-Parameters: 
+Parameters:
 Module name: uvicorn
 Parameters: app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### Flask Project Setup
+
 ```python
 # Create Flask project
 File → New Project → Flask
@@ -220,18 +232,19 @@ db = SQLAlchemy()
 def create_app():
     app = Flask(__name__)
     app.config.from_object('config.Config')
-    
+
     db.init_app(app)
-    
+
     from app.views import main
     app.register_blueprint(main)
-    
+
     return app
 ```
 
 ## Code Style Configuration
 
 ### Python Code Style
+
 ```python
 # Settings → Editor → Code Style → Python
 
@@ -259,6 +272,7 @@ From imports:
 ```
 
 ### Code Formatters Integration
+
 ```bash
 # Black formatter setup
 Settings → Tools → External Tools → Add
@@ -276,6 +290,7 @@ Settings → Tools → Black
 ```
 
 ### Type Checking with MyPy
+
 ```bash
 # Install MyPy
 pip install mypy
@@ -300,6 +315,7 @@ disallow_untyped_defs = True
 ## Debugging Configuration
 
 ### Basic Debugging
+
 ```python
 # Set breakpoints: Click in gutter or Ctrl+F8
 # Debug modes:
@@ -308,7 +324,7 @@ disallow_untyped_defs = True
 
 # Debug toolbar:
 # F8: Step over
-# F7: Step into  
+# F7: Step into
 # Shift+F8: Step out
 # Alt+F9: Run to cursor
 # F9: Resume program
@@ -318,6 +334,7 @@ disallow_untyped_defs = True
 ```
 
 ### Remote Debugging
+
 ```python
 # Install debugger on remote server
 pip install pydevd-pycharm
@@ -335,6 +352,7 @@ pydevd_pycharm.settrace('your-ip', port=12345, stdoutToServer=True, stderrToServ
 ```
 
 ### Django Debugging
+
 ```python
 # Django run configuration
 Run → Edit Configurations → Add → Django Server
@@ -353,6 +371,7 @@ Parameters: runserver 127.0.0.1:8000
 ## Database Integration (Professional)
 
 ### Database Connection
+
 ```python
 # Database tool window
 View → Tool Windows → Database
@@ -372,6 +391,7 @@ URL: jdbc:postgresql://localhost:5432/myproject
 ```
 
 ### Django Models Integration
+
 ```python
 # Automatic model detection
 # PyCharm detects Django models and provides:
@@ -385,11 +405,11 @@ class User(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now_add=True)
-    
+
     class Meta:
         db_table = 'users'
         ordering = ['created_at']
-        
+
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 ```
@@ -397,6 +417,7 @@ class User(models.Model):
 ## Testing Configuration
 
 ### PyTest Setup
+
 ```python
 # Install pytest
 pip install pytest pytest-django pytest-cov
@@ -428,6 +449,7 @@ class TestUserModel(TestCase):
 ```
 
 ### Django Testing
+
 ```python
 # Django test configuration
 Run → Edit Configurations → Add → Django tests
@@ -454,7 +476,7 @@ class ViewTestCase(TestCase):
             username='testuser',
             password='testpass'
         )
-    
+
     def test_home_view(self):
         response = self.client.get('/')
         self.assertEqual(response.status_code, 200)
@@ -463,6 +485,7 @@ class ViewTestCase(TestCase):
 ## Package Management
 
 ### Requirements Management
+
 ```python
 # requirements.txt
 Django==4.2.7
@@ -483,6 +506,7 @@ pip install -r requirements-dev.txt
 ```
 
 ### Poetry Integration
+
 ```bash
 # Install Poetry
 curl -sSL https://install.python-poetry.org | python3 -
@@ -513,6 +537,7 @@ Settings → Project → Python Interpreter → Add → Poetry Environment
 ## Performance Optimization
 
 ### Memory Settings
+
 ```bash
 # Increase PyCharm memory
 Help → Edit Custom VM Options
@@ -529,6 +554,7 @@ Help → Edit Custom VM Options
 ```
 
 ### Indexing Optimization
+
 ```bash
 # Exclude directories from indexing
 Settings → Project → Directories
@@ -549,6 +575,7 @@ Add patterns: *.pyc; *.pyo; __pycache__
 ## Live Templates
 
 ### Custom Python Templates
+
 ```python
 # Settings → Editor → Live Templates → Python
 
@@ -568,41 +595,42 @@ logger = logging.getLogger(__name__)
 def test_$NAME$():
     # given
     $GIVEN$
-    
+
     # when
     $WHEN$
-    
+
     # then
     $THEN$
 
 # class - class with docstring
 class $NAME$:
     """$DOCSTRING$."""
-    
+
     def __init__(self):
         $END$
 ```
 
 ### Django Templates
+
 ```python
 # model - Django model
 class $NAME$(models.Model):
     """$DOCSTRING$."""
-    
+
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    
+
     class Meta:
         db_table = '$TABLE$'
         ordering = ['created_at']
-    
+
     def __str__(self):
         return f"$NAME$ {self.pk}"
 
 # view - Django view
 class $NAME$View(View):
     """$DOCSTRING$."""
-    
+
     def get(self, request):
         $END$
         return render(request, '$TEMPLATE$', context)
@@ -610,7 +638,7 @@ class $NAME$View(View):
 # serializer - DRF Serializer
 class $NAME$Serializer(serializers.ModelSerializer):
     """$DOCSTRING$."""
-    
+
     class Meta:
         model = $MODEL$
         fields = '__all__'
@@ -621,6 +649,7 @@ class $NAME$Serializer(serializers.ModelSerializer):
 ### Common Issues
 
 #### Import Resolution Problems
+
 ```python
 # Mark directories as source roots
 Right-click directory → Mark Directory as → Sources Root
@@ -631,6 +660,7 @@ Add: PYTHONPATH=/path/to/project/root
 ```
 
 #### Virtual Environment Issues
+
 ```bash
 # Recreate virtual environment
 rm -rf venv/
@@ -643,6 +673,7 @@ Settings → Project → Python Interpreter → Show All → Remove → Add
 ```
 
 #### Django Settings Issues
+
 ```python
 # Configure Django settings
 Settings → Languages & Frameworks → Django
