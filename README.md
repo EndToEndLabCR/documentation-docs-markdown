@@ -1,5 +1,7 @@
 # documentation
 
+[![Deploy Docusaurus Site](https://github.com/EndToEndLabCR/documentation-docs-markdown/actions/workflows/deploy.yml/badge.svg)](https://github.com/EndToEndLabCR/documentation-docs-markdown/actions/workflows/deploy.yml)
+
 A centralized repository for relevant documentation, guides, and best practices. This project serves as a knowledge base for tools and technologies we frequently use, including GitHub, Python, React, Docker, Postman, and more.
 
 ## 📑 Table of Contents
