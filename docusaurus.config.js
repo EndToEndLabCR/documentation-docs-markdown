@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "/documentation-docs-markdown/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/logo.svg",
   organizationName: "EndToEndLabCR",
   projectName: "documentation-docs-markdown",
 
