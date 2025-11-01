@@ -285,10 +285,8 @@ These tasks provide polish and optimization:
 To begin working on this project:
 
 1. Review all task documents in the `tasks/` directory
-2. Familiarize yourself with the [PM Agent documentation](../../../AI/agents/pm-agent.md)
-3. Set up your development environment according to the project setup tasks
-4. Follow the task prioritization to focus on MVP features first
-5. Use the provided task structure for tracking progress
+2. Follow the task prioritization to focus on MVP features first
+3. Use the provided task structure for tracking progress
 
 ---
 

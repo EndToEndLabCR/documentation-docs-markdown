@@ -12,95 +12,95 @@ This documentation is designed to be your go-to resource for understanding our t
 
 ## 📁 Documentation Structure
 
-### 🚀 [01-Introduction](./01-introduction/)
+### 🚀 [Introduction](./introduction/)
 
 Get started with the fundamentals of our organization and documentation system.
 
-- [What is EndToEndLabCR](./01-introduction/what-is-endtoendlabcr.md)
-- [Vision and Mission](./01-introduction/vision-and-mission.md)
-- [How to Use This Documentation](./01-introduction/how-to-use-this-docs.md)
+- [What is EndToEndLabCR](./introduction/what-is-endtoendlabcr.md)
+- [Vision and Mission](./introduction/vision-and-mission.md)
+- [How to Use This Documentation](./introduction/how-to-use-this-docs.md)
 
-### 🛠️ [02-Tech Stack](./02-tech-stack/)
+### 🛠️ [Tech Stack](./tech-stack/)
 
 Comprehensive guides for each technology in our development stack.
 
-#### 🐳 [Docker](./02-tech-stack/docker/)
+#### 🐳 [Docker](./tech-stack/docker/)
 
-- [Getting Started with Docker](./02-tech-stack/docker/getting-started.md)
-- [Docker Best Practices](./02-tech-stack/docker/best-practices.md)
-- [Docker Troubleshooting](./02-tech-stack/docker/troubleshooting.md)
+- [Getting Started with Docker](./tech-stack/docker/getting-started.md)
+- [Docker Best Practices](./tech-stack/docker/best-practices.md)
+- [Docker Troubleshooting](./tech-stack/docker/troubleshooting.md)
 
-#### 🐍 [Python](./02-tech-stack/python/)
+#### 🐍 [Python](./tech-stack/python/)
 
-- [FastAPI Framework Guide](./02-tech-stack/python/frameworks/fastapi.md)
-- [Flask vs FastAPI Comparison](./02-tech-stack/python/frameworks/flask-vs-fastapi.md)
-- [Dependency Management](./02-tech-stack/python/dependency-management.md)
-- [Testing in Python](./02-tech-stack/python/testing-in-python.md)
+- [FastAPI Framework Guide](./tech-stack/python/frameworks/fastapi.md)
+- [Flask vs FastAPI Comparison](./tech-stack/python/frameworks/flask-vs-fastapi.md)
+- [Dependency Management](./tech-stack/python/dependency-management.md)
+- [Testing in Python](./tech-stack/python/testing-in-python.md)
 
-#### ⚛️ [Frontend Development](./02-tech-stack/frontend/)
+#### ⚛️ [Frontend Development](./tech-stack/frontend/)
 
-- [React Component Structure](./02-tech-stack/frontend/react/component-structure.md)
-- [State Management Patterns](./02-tech-stack/frontend/react/state-management.md)
-- [Testing React Applications](./02-tech-stack/frontend/react/testing-react.md)
-- [JavaScript and TypeScript](./02-tech-stack/frontend/javascript-and-typescript.md)
+- [React Component Structure](./tech-stack/frontend/react/component-structure.md)
+- [State Management Patterns](./tech-stack/frontend/react/state-management.md)
+- [Testing React Applications](./tech-stack/frontend/react/testing-react.md)
+- [JavaScript and TypeScript](./tech-stack/frontend/javascript-and-typescript.md)
 
-#### 🔄 [Git and GitHub](./02-tech-stack/git-and-github/)
+#### 🔄 [Git and GitHub](./tech-stack/git-and-github/)
 
-- [Branching Strategy](./02-tech-stack/git-and-github/branching-strategy.md)
-- [Code Review Guidelines](./02-tech-stack/git-and-github/code-review-guidelines.md)
-- [GitHub Actions](./02-tech-stack/git-and-github/github-actions.md)
+- [Branching Strategy](./tech-stack/git-and-github/branching-strategy.md)
+- [Code Review Guidelines](./tech-stack/git-and-github/code-review-guidelines.md)
+- [GitHub Actions](./tech-stack/git-and-github/github-actions.md)
 
-#### 🧰 [Development Tools](./02-tech-stack/tools/)
+#### 🧰 [Development Tools](./tech-stack/tools/)
 
-- [Postman for API Testing](./02-tech-stack/tools/postman.md)
-- [API Documentation Tools](./02-tech-stack/tools/api-documentation-tools.md)
-- [Productivity Tools](./02-tech-stack/tools/productivity-tools.md)
+- [Postman for API Testing](./tech-stack/tools/postman.md)
+- [API Documentation Tools](./tech-stack/tools/api-documentation-tools.md)
+- [Productivity Tools](./tech-stack/tools/productivity-tools.md)
 
-### 📏 [03-Organizational Best Practices](./03-organizational-best-practices/)
+### 📏 [Organizational Best Practices](./organizational-best-practices/)
 
 Standards and guidelines for maintaining high-quality code and processes.
 
-- [Coding Guidelines](./03-organizational-best-practices/coding-guidelines.md)
-- [Code Comments and Docstrings](./03-organizational-best-practices/code-comments-and-docstrings.md)
-- [CI/CD Pipelines](./03-organizational-best-practices/ci-cd-pipelines.md)
-- [Project Architecture](./03-organizational-best-practices/project-architecture.md)
-- [Security Best Practices](./03-organizational-best-practices/security-best-practices.md)
+- [Coding Guidelines](./organizational-best-practices/coding-guidelines.md)
+- [Code Comments and Docstrings](./organizational-best-practices/code-comments-and-docstrings.md)
+- [CI/CD Pipelines](./organizational-best-practices/ci-cd-pipelines.md)
+- [Project Architecture](./organizational-best-practices/project-architecture.md)
+- [Security Best Practices](./organizational-best-practices/security-best-practices.md)
 
-### 🚀 [04-Projects](./04-projects/)
+### 🚀 [Projects](./projects/)
 
 Documentation for our key projects and templates.
 
-- [Template API Python](./04-projects/template-api-python.md)
-- [Template Spring Boot Java](./04-projects/template-springboot-java.md)
-- [TodoApp Project](./04-projects/todoapp.md)
-- [POC Ingestion Java](./04-projects/poc-ingestion-java.md)
+- [Template API Python](./projects/template-api-python.md)
+- [Template Spring Boot Java](./projects/template-springboot-java.md)
+- [TodoApp Project](./projects/todoapp.md)
+- [POC Ingestion Java](./projects/poc-ingestion-java.md)
 
-### 📖 [05-Guides and Tutorials](./05-guides-and-tutorials/)
+### 📖 [Guides and Tutorials](./guides-and-tutorials/)
 
 Step-by-step instructions for common development tasks.
 
-- [Onboarding Guide](./05-guides-and-tutorials/onboarding-guide.md)
-- [Setting Up Local Environment](./05-guides-and-tutorials/setting-up-local-environment.md)
-- [Deploying to AWS](./05-guides-and-tutorials/deploying-to-aws.md)
-- [Debugging Cheatsheet](./05-guides-and-tutorials/debugging-cheatsheet.md)
+- [Onboarding Guide](./guides-and-tutorials/onboarding-guide.md)
+- [Setting Up Local Environment](./guides-and-tutorials/setting-up-local-environment.md)
+- [Deploying to AWS](./guides-and-tutorials/deploying-to-aws.md)
+- [Debugging Cheatsheet](./guides-and-tutorials/debugging-cheatsheet.md)
 
-### ❓ [06-FAQ and Troubleshooting](./06-faq-and-troubleshooting/)
+### ❓ [FAQ and Troubleshooting](./faq-and-troubleshooting/)
 
 Solutions to common issues and frequently asked questions.
 
-- [Common Errors](./06-faq-and-troubleshooting/common-errors.md)
-- [Git Conflicts](./06-faq-and-troubleshooting/git-conflicts.md)
-- [CI/CD Issues](./06-faq-and-troubleshooting/ci-cd-issues.md)
+- [Common Errors](./faq-and-troubleshooting/common-errors.md)
+- [Git Conflicts](./faq-and-troubleshooting/git-conflicts.md)
+- [CI/CD Issues](./faq-and-troubleshooting/ci-cd-issues.md)
 
-### 🏗️ [07-Architecture and Patterns](./07-architecture-and-patterns/)
+### 🏗️ [Architecture and Patterns](./architecture-and-patterns/)
 
 Design patterns and architectural guidance for scalable systems.
 
-- [Design Patterns in Python](./07-architecture-and-patterns/design-patterns-in-python.md)
-- [Design Patterns in Java](./07-architecture-and-patterns/design-patterns-in-java.md)
-- [Architectural Styles](./07-architecture-and-patterns/architectural-styles.md)
-- [Microservices Architecture](./07-architecture-and-patterns/microservices-architecture.md)
-- [Event-Driven Architecture](./07-architecture-and-patterns/event-driven-architecture.md)
+- [Design Patterns in Python](./architecture-and-patterns/design-patterns-in-python.md)
+- [Design Patterns in Java](./architecture-and-patterns/design-patterns-in-java.md)
+- [Architectural Styles](./architecture-and-patterns/architectural-styles.md)
+- [Microservices Architecture](./architecture-and-patterns/microservices-architecture.md)
+- [Event-Driven Architecture](./architecture-and-patterns/event-driven-architecture.md)
 
 ### ⚙️ [08-Install and Setup](./08-install-and-setup/)
 
@@ -115,24 +115,24 @@ IDE setup and configuration guides for optimal development experience.
 
 ### For New Team Members
 
-1. Start with [What is EndToEndLabCR](./01-introduction/what-is-endtoendlabcr.md)
-2. Follow the [Onboarding Guide](./05-guides-and-tutorials/onboarding-guide.md)
-3. Set up your [Local Environment](./05-guides-and-tutorials/setting-up-local-environment.md)
+1. Start with [What is EndToEndLabCR](./introduction/what-is-endtoendlabcr.md)
+2. Follow the [Onboarding Guide](./guides-and-tutorials/onboarding-guide.md)
+3. Set up your [Local Environment](./guides-and-tutorials/setting-up-local-environment.md)
 4. Choose and configure your [IDE](./08-install-and-setup/)
 
 ### For Developers
 
-1. Review [Coding Guidelines](./03-organizational-best-practices/coding-guidelines.md)
-2. Understand our [Git Workflow](./02-tech-stack/git-and-github/branching-strategy.md)
-3. Explore [Project Templates](./04-projects/)
-4. Reference [Design Patterns](./07-architecture-and-patterns/)
+1. Review [Coding Guidelines](./organizational-best-practices/coding-guidelines.md)
+2. Understand our [Git Workflow](./tech-stack/git-and-github/branching-strategy.md)
+3. Explore [Project Templates](./projects/)
+4. Reference [Design Patterns](./architecture-and-patterns/)
 
 ### For Debugging and Troubleshooting
 
-1. Check [Common Errors](./06-faq-and-troubleshooting/common-errors.md)
-2. Use the [Debugging Cheatsheet](./05-guides-and-tutorials/debugging-cheatsheet.md)
-3. Resolve [Git Conflicts](./06-faq-and-troubleshooting/git-conflicts.md)
-4. Fix [CI/CD Issues](./06-faq-and-troubleshooting/ci-cd-issues.md)
+1. Check [Common Errors](./faq-and-troubleshooting/common-errors.md)
+2. Use the [Debugging Cheatsheet](./guides-and-tutorials/debugging-cheatsheet.md)
+3. Resolve [Git Conflicts](./faq-and-troubleshooting/git-conflicts.md)
+4. Fix [CI/CD Issues](./faq-and-troubleshooting/ci-cd-issues.md)
 
 ## 🔍 How to Use This Documentation
 
@@ -204,5 +204,3 @@ Our documentation follows these key principles:
 - **Examples-Driven**: Include real-world examples and code snippets
 
 ---
-
-**Built by the EndToEndLabCR Team**
