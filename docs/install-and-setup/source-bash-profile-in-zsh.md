@@ -136,4 +136,4 @@ source ~/.zshrc
 
 By following these steps, both Mac and Windows users can ensure their `.bash_profile` configurations are loaded automatically with Zsh!
 
-You can refer to the [bash profile file](./resources/.bash_profile) for an example of a typical `.bash_profile` configuration. This file contains environment variable setups, aliases, and custom functions that can streamline your terminal experience.
+You can refer to the bash profile file for an example of a typical `.bash_profile` configuration. This file contains environment variable setups, aliases, and custom functions that can streamline your terminal experience.
