@@ -389,11 +389,9 @@ _Exchange rate: ~₡510 per $1 USD_
 To begin working on this project:
 
 1. Review all task documents in the `tasks/` directory
-2. Familiarize yourself with the [Documentation Agent](../../../AI/agents/documentation-agent.md)
-3. Review [Docusaurus documentation](https://docusaurus.io/docs)
-4. Set up your development environment according to the project setup tasks
-5. Follow the task prioritization to focus on MVP features first
-6. Use the provided task structure for tracking progress
+2. Set up your development environment according to the project setup tasks
+3. Follow the task prioritization to focus on MVP features first
+4. Use the provided task structure for tracking progress
 
 ---
 
