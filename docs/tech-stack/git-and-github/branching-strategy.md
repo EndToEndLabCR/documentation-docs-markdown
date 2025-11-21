@@ -5,10 +5,12 @@ This file outlines our Git branching strategy and workflow for collaborative dev
 ## GitFlow Workflow
 
 ### Main Branches
+
 - **main**: Production-ready code
 - **develop**: Integration branch for features
 
 ### Supporting Branches
+
 - **feature**: New features (`feature/feature-name`)
 - **release**: Release preparation (`release/v1.2.0`)
 - **hotfix**: Critical production fixes (`hotfix/fix-name`)
@@ -16,6 +18,7 @@ This file outlines our Git branching strategy and workflow for collaborative dev
 ## Branch Naming Conventions
 
 ### Feature Branches
+
 ```bash
 feature/user-authentication
 feature/payment-integration
@@ -23,12 +26,14 @@ feature/dashboard-redesign
 ```
 
 ### Bug Fix Branches
+
 ```bash
 bugfix/login-error
 bugfix/memory-leak
 ```
 
 ### Hotfix Branches
+
 ```bash
 hotfix/security-patch
 hotfix/critical-bug
