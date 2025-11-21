@@ -1,0 +1,42 @@
+name: Deploy Docusaurus Site
+
+on:
+  push:
+    branches:
+      - main # Triggers on push to the main branch
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for pushing to gh-pages
+
+    steps:
+    # Step 1: Checkout the code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Step 2: Set up Node.js
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Use Node.js 20 as required by package.json
+        cache: 'npm' # Cache npm dependencies for faster builds
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: npm ci # Use npm ci for consistent, clean installs
+
+    # Step 4: Build the site
+    - name: Build the site
+      run: npm run build
+
+    # Step 5: Deploy to GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
